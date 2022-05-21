@@ -8,8 +8,10 @@
 </head>
 <body>
     <h1>Calculator</h1>    
-    <form action="index.html" method="post">
-        <!-- propiedad name es un equivalente al nombre de una variable, e identifica de manera única los datos dentro del input -->
+    <form action="/" method="post"> 
+    <!-- si coloco o no el atributo action, está bien. De forma predeterminada el form simplemente enviará los datos a la página actual en donde se encuentra -->
+
+        <!-- el atributo name es un equivalente al nombre de una variable, e identifica de manera única los datos dentro del input -->
         <input type="text" name="num1" placeholder="First Number">
         <input type="text" name="num2" placeholder="Second Number">
         <button type="submit" name="submit">Calculator</button>
